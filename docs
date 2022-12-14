@@ -1,0 +1,20 @@
+https://docs.nestjs.com/
+https://docs.nestjs.com/recipes/prisma
+
+    nest new notification-service
+    npm start start:dev 
+
+===PRISMA===    
+
+    npm i prisma -D
+    npm i @prisma/client
+
+===SQLite===
+
+    npm i sqlite3 -D
+    npx prisma init --datasource-provider SQLite
+
+    npx prisma migrate dev
+
+    npx prisma studio (abre o db no navegador)
+
